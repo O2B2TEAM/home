@@ -11,7 +11,7 @@ with col2:
 
 col1, col2 =st.columns(2)
 with col1: 
-    st.button("일자리를 구하고 신가요?")
+    st.link_button("일자리를 구하고 신가요?","https://8cowsbpbksvfy7pfguxqzn.streamlit.app/")
     st.text("description")
 with col2:    
     st.image("images/sundayafternoon.jpg")
@@ -19,7 +19,7 @@ with col2:
 st.text("From cradle to grave service")
 col1,col2,col3,col4,col5= st.columns(5)
 with col1:
-    st.button("어린이")
+    st.link_button("어린이", "https://mow8peylknmiuskhb3cgg8.streamlit.app/")
     st.text("description")
 with col2:
     st.button("노인")
